@@ -383,8 +383,10 @@ This project demonstrates real-world analyst skills:
 - Translating analysis into business recommendations
 - Packaging the project for GitHub and resume use
 
-## Author
+## 👤 Author
 
-**Sujal Giri**  
-B.Tech CSE, 3rd Semester  
-BS in Computer Science and Data Analytics, IIT Patna
+**Sujal Giri**
+
+- GitHub: https://github.com/sujalgiriiitp-source
+- LinkedIn: https://www.linkedin.com/in/sujal-giri-9501253a0
+- Email: sujalgiriiitp@gmail.com
