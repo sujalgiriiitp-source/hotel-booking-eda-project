@@ -1,12 +1,42 @@
 .DS_Store
+
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
 .venv/
 venv/
 env/
+ENV/
+
+# Environment and secrets
 .env
+.envrc
 *.log
-.matplotlib_cache/
+
+# Jupyter and local notebook state
+.ipynb_checkpoints/
 .ipython/
 .jupyter/
+profile_default/
+ipython_config.py
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Project-generated local caches
+.matplotlib_cache/
+
+# IDE/editor state
+.vscode/
+.idea/
+tempCodeRunnerFile.py
