@@ -1,0 +1,481 @@
+{
+  "metrics": {
+    "cleaning_summary": {
+      "source_url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-11/hotels.csv",
+      "raw_rows": 119390,
+      "raw_columns": 32,
+      "duplicates_removed": 31994,
+      "missing_cells_before": 129425,
+      "missing_cells_after": 0,
+      "invalid_guest_rows_removed": 166,
+      "invalid_night_rows_removed": 651,
+      "negative_adr_rows_removed": 1,
+      "invalid_date_rows_removed": 0,
+      "clean_rows": 86638,
+      "clean_columns": 64,
+      "rows_removed_total": 32752
+    },
+    "overall_cancellation_rate": 0.2768531129527459,
+    "hotel_counts": {
+      "City Hotel": 53043,
+      "Resort Hotel": 33595
+    },
+    "hotel_cancel_rate": {
+      "City Hotel": 0.30205682182380333,
+      "Resort Hotel": 0.23705908617353774
+    },
+    "hotel_revenue": {
+      "City Hotel": 12112961.27625,
+      "Resort Hotel": 10649798.83375
+    },
+    "monthly_cancel_rate": {
+      "April": 0.3053367217280813,
+      "August": 0.32356619617652316,
+      "December": 0.2727452923686819,
+      "February": 0.2330016583747927,
+      "January": 0.2229409228115567,
+      "July": 0.3198838606327593,
+      "June": 0.30449423649786295,
+      "March": 0.24559752654926736,
+      "May": 0.29411764705882354,
+      "November": 0.21399511798209928,
+      "October": 0.23984215141771412,
+      "September": 0.246283225709566
+    },
+    "yearly_counts": {
+      "2015": 13142,
+      "2016": 41967,
+      "2017": 31529
+    },
+    "market_counts": {
+      "Online TA": 51285,
+      "Offline TA/TO": 13749,
+      "Direct": 11652,
+      "Groups": 4891,
+      "Corporate": 4155,
+      "Complementary": 682,
+      "Aviation": 222,
+      "Unknown": 2
+    },
+    "channel_counts": {
+      "TA/TO": 68651,
+      "Direct": 12803,
+      "Corporate": 5001,
+      "GDS": 178,
+      "Unknown": 5
+    },
+    "customer_counts": {
+      "Transient": 71366,
+      "Transient-Party": 11617,
+      "Contract": 3119,
+      "Group": 536
+    },
+    "country_counts_top10": {
+      "PRT": 26864,
+      "GBR": 10400,
+      "FRA": 8813,
+      "ESP": 7228,
+      "DEU": 5385,
+      "ITA": 3056,
+      "IRL": 3014,
+      "BEL": 2078,
+      "BRA": 1988,
+      "NLD": 1908
+    },
+    "top_country_cancel_rate": {
+      "BEL": 0.1973051010587103,
+      "BRA": 0.36519114688128773,
+      "DEU": 0.1955431754874652,
+      "ESP": 0.25747094631986717,
+      "FRA": 0.19641438783615114,
+      "GBR": 0.19067307692307692,
+      "IRL": 0.2216323822163238,
+      "ITA": 0.35143979057591623,
+      "NLD": 0.18343815513626835,
+      "PRT": 0.36368374032162
+    },
+    "repeated_cancel_rate": {
+      "First-time Guest": 0.28417610846288355,
+      "Repeated Guest": 0.08237913486005088
+    },
+    "request_cancel_rate": {
+      "At least one request": 0.21844188307179557,
+      "No request": 0.3349603978633266
+    },
+    "median_lead_time_by_status": {
+      "Canceled": 80.0,
+      "Not Canceled": 38.0
+    },
+    "room_change_rate": 0.14612525681571598,
+    "room_change_cancel_rate": {
+      "Changed": 0.04802527646129542,
+      "Same": 0.31601286869069184
+    },
+    "season_counts": {
+      "Summer": 28903,
+      "Spring": 23605,
+      "Autumn": 18417,
+      "Winter": 15713
+    },
+    "season_revenue": {
+      "Autumn": 4333993.24625,
+      "Spring": 5270600.67875,
+      "Summer": 10515668.44,
+      "Winter": 2642497.745
+    },
+    "length_counts": {
+      "1-2 nights": 32903,
+      "3-4 nights": 31392,
+      "5-7 nights": 17512,
+      "8-14 nights": 4467,
+      "15+ nights": 364
+    },
+    "special_request_counts": {
+      "0": 43432,
+      "1": 28804,
+      "2": 11739,
+      "3": 2307,
+      "4": 320,
+      "5": 36
+    },
+    "family_cancel_rate": {
+      "Family": 0.3439602868174297,
+      "Non-family": 0.26901112500483415
+    },
+    "deposit_cancel_rate": {
+      "No Deposit": 0.2687588457534535,
+      "Non Refund": 0.9470134874759152,
+      "Refundable": 0.24299065420560748
+    },
+    "adr_by_hotel_median": {
+      "City Hotel": 105.74,
+      "Resort Hotel": 80.0
+    },
+    "total_realized_revenue": 22762760.11,
+    "top_hotel": "City Hotel",
+    "top_hotel_count": 53043,
+    "highest_cancel_hotel": "City Hotel",
+    "highest_cancel_hotel_rate": 0.30205682182380333,
+    "top_revenue_hotel": "City Hotel",
+    "top_revenue_hotel_value": 12112961.27625,
+    "highest_adr_hotel": "City Hotel",
+    "highest_adr_hotel_median": 105.74,
+    "top_month": "August",
+    "top_month_count": 11194,
+    "highest_cancel_month": "August",
+    "highest_cancel_month_rate": 0.32356619617652316,
+    "top_year": 2016,
+    "top_year_count": 41967,
+    "top_market_segment": "Online TA",
+    "top_market_segment_count": 51285,
+    "top_channel": "TA/TO",
+    "top_channel_count": 68651,
+    "top_customer_type": "Transient",
+    "top_customer_type_count": 71366,
+    "top_revenue_customer_type": "Transient",
+    "top_revenue_customer_type_value": 18322571.12125,
+    "top_country": "PRT",
+    "top_country_count": 26864,
+    "highest_cancel_top_country": "BRA",
+    "highest_cancel_top_country_rate": 0.36519114688128773,
+    "top_room_type": "A",
+    "top_room_type_count": 56009,
+    "top_season": "Summer",
+    "top_season_count": 28903,
+    "top_revenue_season": "Summer",
+    "top_revenue_season_value": 10515668.44,
+    "top_length_category": "1-2 nights",
+    "top_length_category_count": 32903,
+    "highest_deposit_cancel": "Non Refund",
+    "highest_deposit_cancel_rate": 0.9470134874759152
+  },
+  "business_questions": [
+    {
+      "question": "Which hotel type receives the most bookings?",
+      "answer": "City Hotel leads with 53,043 clean bookings."
+    },
+    {
+      "question": "What is the overall cancellation rate?",
+      "answer": "The cleaned dataset has an overall cancellation rate of 27.7%."
+    },
+    {
+      "question": "Which hotel type has the highest cancellation risk?",
+      "answer": "City Hotel has the higher cancellation rate at 30.2%."
+    },
+    {
+      "question": "Which hotel type contributes the most realized revenue?",
+      "answer": "City Hotel contributes the most estimated realized room revenue: 12,112,961 ADR-units."
+    },
+    {
+      "question": "Which month has the highest booking demand?",
+      "answer": "August has the highest booking volume with 11,194 bookings."
+    },
+    {
+      "question": "Which month has the highest cancellation rate?",
+      "answer": "August has the highest cancellation rate at 32.4%."
+    },
+    {
+      "question": "Which year has the highest booking volume?",
+      "answer": "2016 has the most records with 41,967 bookings."
+    },
+    {
+      "question": "Which market segment is the main acquisition source?",
+      "answer": "Online TA is the largest segment with 51,285 bookings."
+    },
+    {
+      "question": "Which distribution channel brings the most bookings?",
+      "answer": "TA/TO is the leading distribution channel with 68,651 bookings."
+    },
+    {
+      "question": "Which customer type dominates demand?",
+      "answer": "Transient customers dominate with 71,366 bookings."
+    },
+    {
+      "question": "Which customer type contributes the most realized revenue?",
+      "answer": "Transient contributes the highest estimated realized revenue: 18,322,571 ADR-units."
+    },
+    {
+      "question": "Which country is the strongest source market?",
+      "answer": "PRT is the top country with 26,864 bookings."
+    },
+    {
+      "question": "Among top source countries, where is cancellation risk highest?",
+      "answer": "BRA has the highest cancellation rate among the top source countries at 36.5%."
+    },
+    {
+      "question": "Do longer lead times relate to cancellation behavior?",
+      "answer": "Canceled bookings have a median lead time of 80.0 days versus 38.0 days for non-canceled bookings."
+    },
+    {
+      "question": "Are repeated guests less likely to cancel?",
+      "answer": "Repeated guests cancel at 8.2%, while first-time guests cancel at 28.4%."
+    },
+    {
+      "question": "Do special requests indicate stronger booking intent?",
+      "answer": "Bookings with at least one special request cancel at 21.8% compared with 33.5% for bookings with no request."
+    },
+    {
+      "question": "Which reserved room type is most common?",
+      "answer": "Room type A is most requested with 56,009 bookings."
+    },
+    {
+      "question": "How often do room assignments change, and does it matter?",
+      "answer": "Room type changes occur in 14.6% of bookings. Changed-room bookings cancel at 4.8% versus 31.6% when the room type stays the same."
+    },
+    {
+      "question": "Which season is busiest?",
+      "answer": "Summer is the busiest season with 28,903 bookings."
+    },
+    {
+      "question": "Which season contributes the most estimated realized revenue?",
+      "answer": "Summer contributes the highest estimated realized revenue: 10,515,668 ADR-units."
+    },
+    {
+      "question": "What length of stay is most common?",
+      "answer": "1-2 nights is the most common stay length category with 32,903 bookings."
+    },
+    {
+      "question": "Do families cancel differently from non-family bookings?",
+      "answer": "Family bookings cancel at 34.4%, while non-family bookings cancel at 26.9%."
+    },
+    {
+      "question": "Which deposit type has the highest cancellation rate?",
+      "answer": "Non Refund bookings show the highest cancellation rate at 94.7%."
+    }
+  ],
+  "outlier_summary": [
+    {
+      "column": "lead_time",
+      "q1": 12.0,
+      "q3": 126.0,
+      "iqr": 114.0,
+      "lower_bound": -159.0,
+      "upper_bound": 297.0,
+      "outlier_count": 2353,
+      "outlier_rate": 0.02715898335603315
+    },
+    {
+      "column": "adr",
+      "q1": 72.9,
+      "q3": 134.4375,
+      "iqr": 61.537499999999994,
+      "lower_bound": -19.406249999999986,
+      "upper_bound": 226.74374999999998,
+      "outlier_count": 2511,
+      "outlier_rate": 0.028982663496387267
+    },
+    {
+      "column": "total_nights",
+      "q1": 2.0,
+      "q3": 5.0,
+      "iqr": 3.0,
+      "lower_bound": -2.5,
+      "upper_bound": 9.5,
+      "outlier_count": 2990,
+      "outlier_rate": 0.034511415314296266
+    },
+    {
+      "column": "total_guests",
+      "q1": 2.0,
+      "q3": 2.0,
+      "iqr": 0.0,
+      "lower_bound": 2.0,
+      "upper_bound": 2.0,
+      "outlier_count": 29939,
+      "outlier_rate": 0.3455643020383665
+    },
+    {
+      "column": "days_in_waiting_list",
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "outlier_count": 854,
+      "outlier_rate": 0.009857106581407697
+    },
+    {
+      "column": "previous_cancellations",
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "outlier_count": 1677,
+      "outlier_rate": 0.019356402502366168
+    }
+  ],
+  "chart_count": 26,
+  "charts": [
+    {
+      "filename": "01_missing_values_bar.png",
+      "title": "Missing Values Before Cleaning",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "02_duplicate_records_bar.png",
+      "title": "Dataset Size Before and After Cleaning",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "03_cancellation_distribution.png",
+      "title": "Booking Cancellation Distribution",
+      "type": "Count Plot"
+    },
+    {
+      "filename": "04_hotel_type_distribution.png",
+      "title": "Booking Volume by Hotel Type",
+      "type": "Count Plot"
+    },
+    {
+      "filename": "05_cancellation_rate_by_hotel.png",
+      "title": "Cancellation Rate by Hotel Type",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "06_monthly_bookings_trend.png",
+      "title": "Monthly Booking Trend",
+      "type": "Line Chart"
+    },
+    {
+      "filename": "07_monthly_cancellation_rate.png",
+      "title": "Cancellation Rate by Arrival Month",
+      "type": "Line Chart"
+    },
+    {
+      "filename": "08_booking_volume_by_month.png",
+      "title": "Booking Volume by Calendar Month",
+      "type": "Count Plot"
+    },
+    {
+      "filename": "09_bookings_by_year.png",
+      "title": "Bookings by Arrival Year",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "10_market_segment_bookings.png",
+      "title": "Bookings by Market Segment",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "11_distribution_channel_bookings.png",
+      "title": "Bookings by Distribution Channel",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "12_customer_type_pie.png",
+      "title": "Customer Type Share",
+      "type": "Pie Chart"
+    },
+    {
+      "filename": "13_top_countries.png",
+      "title": "Top 10 Source Countries",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "14_adr_histogram.png",
+      "title": "ADR Distribution After IQR Capping",
+      "type": "Histogram and Distribution Plot"
+    },
+    {
+      "filename": "15_lead_time_distribution.png",
+      "title": "Lead Time Distribution After IQR Capping",
+      "type": "Histogram and Distribution Plot"
+    },
+    {
+      "filename": "16_adr_boxplot_by_hotel.png",
+      "title": "ADR Box Plot by Hotel Type",
+      "type": "Box Plot"
+    },
+    {
+      "filename": "17_lead_time_boxplot_by_status.png",
+      "title": "Lead Time Box Plot by Cancellation Status",
+      "type": "Box Plot"
+    },
+    {
+      "filename": "18_adr_violin_by_customer_type.png",
+      "title": "ADR Violin Plot by Customer Type",
+      "type": "Violin Plot"
+    },
+    {
+      "filename": "19_total_nights_distribution.png",
+      "title": "Distribution Plot of Length of Stay",
+      "type": "Distribution Plot"
+    },
+    {
+      "filename": "20_correlation_heatmap.png",
+      "title": "Correlation Matrix Heatmap",
+      "type": "Heatmap and Correlation Matrix"
+    },
+    {
+      "filename": "21_pair_plot_numeric_features.png",
+      "title": "Pair Plot of Key Numeric Features",
+      "type": "Pair Plot"
+    },
+    {
+      "filename": "22_lead_time_vs_adr_scatter.png",
+      "title": "Lead Time vs ADR by Cancellation Status",
+      "type": "Scatter Plot"
+    },
+    {
+      "filename": "23_realized_revenue_by_hotel.png",
+      "title": "Estimated Realized Room Revenue by Hotel Type",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "24_room_type_demand.png",
+      "title": "Top Reserved Room Types",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "25_special_requests_vs_cancellation.png",
+      "title": "Cancellation Rate by Number of Special Requests",
+      "type": "Bar Chart"
+    },
+    {
+      "filename": "26_seasonal_booking_patterns.png",
+      "title": "Seasonal Booking Patterns by Hotel Type",
+      "type": "Grouped Bar Chart"
+    }
+  ]
+}
